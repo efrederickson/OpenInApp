@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>OpenInAppActionExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>OpenInAppShareExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>0243A7181AF0574B0080EEA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0243A72C1AF057950080EEA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0243A7401AF057B80080EEA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
