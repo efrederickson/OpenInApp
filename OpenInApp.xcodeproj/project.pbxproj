@@ -11,6 +11,7 @@
 		020638A11AF3F2E1008F2BFD /* Amazon.lua in Resources */ = {isa = PBXBuildFile; fileRef = 020638A01AF3F2E1008F2BFD /* Amazon.lua */; };
 		020638A21AF3F451008F2BFD /* Amazon.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 020638A01AF3F2E1008F2BFD /* Amazon.lua */; };
 		020638A31AF3F456008F2BFD /* Amazon.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 020638A01AF3F2E1008F2BFD /* Amazon.lua */; };
+		020D63C41B2A1AA9006809A1 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 020D63C31B2A1AA9006809A1 /* TODO */; };
 		0217E5A21AF1968C006124A1 /* AppDotNet.lua in Resources */ = {isa = PBXBuildFile; fileRef = 0217E5A11AF1968C006124A1 /* AppDotNet.lua */; };
 		0217E5A81AF1A5AB006124A1 /* Images.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 0243A7101AF0574B0080EEA2 /* Images.xcassets */; };
 		0217E5A91AF1A868006124A1 /* AppDotNet.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0217E5A11AF1968C006124A1 /* AppDotNet.lua */; };
@@ -221,6 +222,7 @@
 /* Begin PBXFileReference section */
 		0206389C1AF3F16A008F2BFD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		020638A01AF3F2E1008F2BFD /* Amazon.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Amazon.lua; path = scripts/Amazon.lua; sourceTree = "<group>"; };
+		020D63C31B2A1AA9006809A1 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		0217E5A11AF1968C006124A1 /* AppDotNet.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AppDotNet.lua; path = scripts/AppDotNet.lua; sourceTree = "<group>"; };
 		0243A7001AF0574B0080EEA2 /* OpenInApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0243A7041AF0574B0080EEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 		0243A6F71AF0574B0080EEA2 = {
 			isa = PBXGroup;
 			children = (
+				020D63C31B2A1AA9006809A1 /* TODO */,
 				0206389C1AF3F16A008F2BFD /* iAd.framework */,
 				02A3B2381AF150E40014956B /* MBProgressHUD.h */,
 				02A3B2391AF150E40014956B /* MBProgressHUD.m */,
@@ -663,6 +666,7 @@
 				02F6E52F1B267F2B0023AC22 /* 1.xib in Resources */,
 				0243A7141AF0574B0080EEA2 /* LaunchScreen.xib in Resources */,
 				02F6E5311B267F2B0023AC22 /* 3.xib in Resources */,
+				020D63C41B2A1AA9006809A1 /* TODO in Resources */,
 				02F6E5341B267F6B0023AC22 /* Main.storyboard in Resources */,
 				0217E5A21AF1968C006124A1 /* AppDotNet.lua in Resources */,
 				0243A7111AF0574B0080EEA2 /* Images.xcassets in Resources */,
