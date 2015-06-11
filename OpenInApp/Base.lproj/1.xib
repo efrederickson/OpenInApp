@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HolderViewController" customModule="OpenInApp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="JtM-8M-LZ3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NPS-ZT-XFP" userLabel="container">
+                    <rect key="frame" x="15" y="141" width="291" height="256"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Safari + Maps + arrow" translatesAutoresizingMaskIntoConstraints="NO" id="u06-jQ-ugW">
+                            <rect key="frame" x="56" y="49" width="179" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="179" id="8Yl-75-0JB"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="clip" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4C-vH-tFL">
+                            <rect key="frame" x="-9" y="116" width="309" height="119"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="119" id="5Ia-J9-TdO"/>
+                                <constraint firstAttribute="width" constant="309" id="KDr-4Q-WNc"/>
+                            </constraints>
+                            <string key="text">OpenInApp was designed for
+the sole purpose of opening
+links to their desired app
+from any other app, easily.</string>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="C4C-vH-tFL" secondAttribute="centerX" id="2uE-g8-SnI"/>
+                        <constraint firstAttribute="width" constant="291" id="5w9-ng-TMN"/>
+                        <constraint firstItem="C4C-vH-tFL" firstAttribute="top" secondItem="u06-jQ-ugW" secondAttribute="bottom" constant="7" id="d1P-wd-ruY"/>
+                        <constraint firstAttribute="centerX" secondItem="u06-jQ-ugW" secondAttribute="centerX" id="kmz-QA-qf5"/>
+                        <constraint firstAttribute="height" constant="256" id="td9-Lp-noA"/>
+                        <constraint firstItem="u06-jQ-ugW" firstAttribute="top" secondItem="NPS-ZT-XFP" secondAttribute="top" constant="49" id="yMy-46-xun"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="NPS-ZT-XFP" secondAttribute="centerY" constant="15" id="CFB-cB-jd1"/>
+                <constraint firstItem="NPS-ZT-XFP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="IaP-83-rkr"/>
+                <constraint firstAttribute="centerX" secondItem="NPS-ZT-XFP" secondAttribute="centerX" id="OdK-6U-LDR"/>
+                <constraint firstAttribute="trailing" secondItem="NPS-ZT-XFP" secondAttribute="trailing" constant="14" id="b1g-Xw-oBk"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="IaP-83-rkr"/>
+                    <exclude reference="b1g-Xw-oBk"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="902" y="634"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Safari + Maps + arrow" width="180" height="60"/>
+    </resources>
+</document>

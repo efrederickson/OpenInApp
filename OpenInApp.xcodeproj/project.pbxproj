@@ -20,6 +20,11 @@
 		020D63D31B2A2A74006809A1 /* HolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D63CB1B2A2A74006809A1 /* HolderViewController.swift */; };
 		020D63D41B2A2A74006809A1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D63CC1B2A2A74006809A1 /* IntroViewController.swift */; };
 		020D63D51B2A2A74006809A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D63CD1B2A2A74006809A1 /* MainViewController.swift */; };
+		020D63E01B2A34D3006809A1 /* 0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020D63D61B2A34D3006809A1 /* 0.xib */; };
+		020D63E11B2A34D3006809A1 /* 1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020D63D81B2A34D3006809A1 /* 1.xib */; };
+		020D63E21B2A34D3006809A1 /* 2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020D63DA1B2A34D3006809A1 /* 2.xib */; };
+		020D63E31B2A34D3006809A1 /* 3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020D63DC1B2A34D3006809A1 /* 3.xib */; };
+		020D63E41B2A34D3006809A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020D63DE1B2A34D3006809A1 /* Main.storyboard */; };
 		0217E5A21AF1968C006124A1 /* AppDotNet.lua in Resources */ = {isa = PBXBuildFile; fileRef = 0217E5A11AF1968C006124A1 /* AppDotNet.lua */; };
 		0217E5A81AF1A5AB006124A1 /* Images.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 0243A7101AF0574B0080EEA2 /* Images.xcassets */; };
 		0217E5A91AF1A868006124A1 /* AppDotNet.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0217E5A11AF1968C006124A1 /* AppDotNet.lua */; };
@@ -131,11 +136,6 @@
 		02A3B2371AF14F690014956B /* OIAURLChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A3B2351AF14E590014956B /* OIAURLChecker.m */; };
 		02A3B23A1AF150E40014956B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A3B2391AF150E40014956B /* MBProgressHUD.m */; };
 		02A3B23B1AF150EE0014956B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A3B2391AF150E40014956B /* MBProgressHUD.m */; };
-		02F6E52E1B267F2B0023AC22 /* 0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E5261B267F2B0023AC22 /* 0.xib */; };
-		02F6E52F1B267F2B0023AC22 /* 1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E5281B267F2B0023AC22 /* 1.xib */; };
-		02F6E5301B267F2B0023AC22 /* 2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E52A1B267F2B0023AC22 /* 2.xib */; };
-		02F6E5311B267F2B0023AC22 /* 3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E52C1B267F2B0023AC22 /* 3.xib */; };
-		02F6E5341B267F6B0023AC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E5321B267F6B0023AC22 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +232,11 @@
 		020D63CB1B2A2A74006809A1 /* HolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderViewController.swift; sourceTree = "<group>"; };
 		020D63CC1B2A2A74006809A1 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		020D63CD1B2A2A74006809A1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		020D63D71B2A34D3006809A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/0.xib; sourceTree = "<group>"; };
+		020D63D91B2A34D3006809A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/1.xib; sourceTree = "<group>"; };
+		020D63DB1B2A34D3006809A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/2.xib; sourceTree = "<group>"; };
+		020D63DD1B2A34D3006809A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/3.xib; sourceTree = "<group>"; };
+		020D63DF1B2A34D3006809A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0217E5A11AF1968C006124A1 /* AppDotNet.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AppDotNet.lua; path = scripts/AppDotNet.lua; sourceTree = "<group>"; };
 		0243A7001AF0574B0080EEA2 /* OpenInApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0243A7041AF0574B0080EEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -329,11 +334,6 @@
 		02A3B2381AF150E40014956B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		02A3B2391AF150E40014956B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		02AE6B5A1B2675B60003D250 /* OpenInApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenInApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		02F6E5271B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/0.xib"; sourceTree = "<group>"; };
-		02F6E5291B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/1.xib"; sourceTree = "<group>"; };
-		02F6E52B1B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/2.xib"; sourceTree = "<group>"; };
-		02F6E52D1B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/3.xib"; sourceTree = "<group>"; };
-		02F6E5331B267F6B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,12 +411,12 @@
 			children = (
 				0243A7071AF0574B0080EEA2 /* AppDelegate.h */,
 				0243A7081AF0574B0080EEA2 /* AppDelegate.m */,
-				02F6E5321B267F6B0023AC22 /* Main.storyboard */,
-				02F6E5261B267F2B0023AC22 /* 0.xib */,
-				02F6E5281B267F2B0023AC22 /* 1.xib */,
-				02F6E52A1B267F2B0023AC22 /* 2.xib */,
-				02F6E52C1B267F2B0023AC22 /* 3.xib */,
 				0243A7101AF0574B0080EEA2 /* Images.xcassets */,
+				020D63D61B2A34D3006809A1 /* 0.xib */,
+				020D63D81B2A34D3006809A1 /* 1.xib */,
+				020D63DA1B2A34D3006809A1 /* 2.xib */,
+				020D63DC1B2A34D3006809A1 /* 3.xib */,
+				020D63DE1B2A34D3006809A1 /* Main.storyboard */,
 				0243A7121AF0574B0080EEA2 /* LaunchScreen.xib */,
 				0243A7031AF0574B0080EEA2 /* Supporting Files */,
 			);
@@ -660,14 +660,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F6E5301B267F2B0023AC22 /* 2.xib in Resources */,
-				02F6E52E1B267F2B0023AC22 /* 0.xib in Resources */,
+				020D63E21B2A34D3006809A1 /* 2.xib in Resources */,
+				020D63E41B2A34D3006809A1 /* Main.storyboard in Resources */,
+				020D63E01B2A34D3006809A1 /* 0.xib in Resources */,
 				020638A11AF3F2E1008F2BFD /* Amazon.lua in Resources */,
-				02F6E52F1B267F2B0023AC22 /* 1.xib in Resources */,
+				020D63E11B2A34D3006809A1 /* 1.xib in Resources */,
 				0243A7141AF0574B0080EEA2 /* LaunchScreen.xib in Resources */,
-				02F6E5311B267F2B0023AC22 /* 3.xib in Resources */,
 				020D63C41B2A1AA9006809A1 /* TODO in Resources */,
-				02F6E5341B267F6B0023AC22 /* Main.storyboard in Resources */,
+				020D63E31B2A34D3006809A1 /* 3.xib in Resources */,
 				0217E5A21AF1968C006124A1 /* AppDotNet.lua in Resources */,
 				0243A7111AF0574B0080EEA2 /* Images.xcassets in Resources */,
 			);
@@ -812,52 +812,52 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		020D63D61B2A34D3006809A1 /* 0.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020D63D71B2A34D3006809A1 /* Base */,
+			);
+			name = 0.xib;
+			sourceTree = "<group>";
+		};
+		020D63D81B2A34D3006809A1 /* 1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020D63D91B2A34D3006809A1 /* Base */,
+			);
+			name = 1.xib;
+			sourceTree = "<group>";
+		};
+		020D63DA1B2A34D3006809A1 /* 2.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020D63DB1B2A34D3006809A1 /* Base */,
+			);
+			name = 2.xib;
+			sourceTree = "<group>";
+		};
+		020D63DC1B2A34D3006809A1 /* 3.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020D63DD1B2A34D3006809A1 /* Base */,
+			);
+			name = 3.xib;
+			sourceTree = "<group>";
+		};
+		020D63DE1B2A34D3006809A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020D63DF1B2A34D3006809A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		0243A7121AF0574B0080EEA2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0243A7131AF0574B0080EEA2 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		02F6E5261B267F2B0023AC22 /* 0.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02F6E5271B267F2B0023AC22 /* Base */,
-			);
-			name = 0.xib;
-			sourceTree = "<group>";
-		};
-		02F6E5281B267F2B0023AC22 /* 1.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02F6E5291B267F2B0023AC22 /* Base */,
-			);
-			name = 1.xib;
-			sourceTree = "<group>";
-		};
-		02F6E52A1B267F2B0023AC22 /* 2.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02F6E52B1B267F2B0023AC22 /* Base */,
-			);
-			name = 2.xib;
-			sourceTree = "<group>";
-		};
-		02F6E52C1B267F2B0023AC22 /* 3.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02F6E52D1B267F2B0023AC22 /* Base */,
-			);
-			name = 3.xib;
-			sourceTree = "<group>";
-		};
-		02F6E5321B267F6B0023AC22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02F6E5331B267F6B0023AC22 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

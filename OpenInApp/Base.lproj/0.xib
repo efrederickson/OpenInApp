@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HolderViewController" customModule="Of_Present" customModuleProvider="target">
+            <connections>
+                <outlet property="hiLabel" destination="MvZ-bh-c0j" id="f7A-dy-D4O"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Shz-Yl-lBv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="MvZ-bh-c0j">
+                    <rect key="frame" x="8" y="254" width="304" height="59"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="43"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="MvZ-bh-c0j" secondAttribute="centerX" id="4Zn-eo-ezv"/>
+                <constraint firstAttribute="centerY" secondItem="MvZ-bh-c0j" secondAttribute="centerY" constant="0.5" id="Sb8-BF-sqY"/>
+                <constraint firstItem="MvZ-bh-c0j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Tty-Vi-Cpg"/>
+                <constraint firstAttribute="trailing" secondItem="MvZ-bh-c0j" secondAttribute="trailing" constant="8" id="kYU-E9-nMw"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
