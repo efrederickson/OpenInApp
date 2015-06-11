@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sXU-wW-CP2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sXU-wW-CP2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -18,6 +18,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QVJ-cR-o7a" customClass="CRGradientNavigationBar">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
@@ -37,6 +38,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="80" sectionHeaderHeight="10" sectionFooterHeight="11" id="T7A-Kb-0nX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="app" id="TD0-ec-cC7" customClass="OIAAppTableViewCell">
@@ -46,23 +48,27 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zvQ-sE-SKt">
                                             <rect key="frame" x="16" y="10" width="60" height="60"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="Hbx-Jk-c46"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBq-Kb-CaC">
                                             <rect key="frame" x="84" y="34" width="203" height="21"/>
+                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                             <color key="textColor" red="0.49019607843137253" green="0.49019607843137253" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter/Tweetbot" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMK-06-pvl">
                                             <rect key="frame" x="84" y="10" width="203" height="28"/>
+                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="uBq-Kb-CaC" firstAttribute="leading" secondItem="wMK-06-pvl" secondAttribute="leading" id="8dO-bb-zhu"/>
                                         <constraint firstItem="zvQ-sE-SKt" firstAttribute="top" secondItem="5gf-hw-o36" secondAttribute="topMargin" constant="2" id="CPS-O3-JLR"/>
@@ -77,6 +83,7 @@
                                         <constraint firstItem="uBq-Kb-CaC" firstAttribute="trailing" secondItem="wMK-06-pvl" secondAttribute="trailing" id="xOj-La-bNa"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <animations/>
                                 <connections>
                                     <outlet property="appTitleLabel" destination="wMK-06-pvl" id="LK8-De-ftZ"/>
                                     <outlet property="appUrlLabel" destination="uBq-Kb-CaC" id="DSx-Kj-Eaj"/>
@@ -120,18 +127,21 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOt-6Q-I00">
                                 <rect key="frame" x="16" y="93" width="53" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lua expression:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfc-8C-WcZ">
                                 <rect key="frame" x="16" y="127" width="136" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="twitter.com/[%w_]+/statuse-s-/(%d+)" translatesAutoresizingMaskIntoConstraints="NO" id="1TN-kA-TBf">
                                 <rect key="frame" x="16" y="156" width="288" height="74"/>
+                                <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.26000000000000001" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -143,6 +153,7 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="twitter://status/%1" translatesAutoresizingMaskIntoConstraints="NO" id="sPd-wf-jwP">
                                 <rect key="frame" x="16" y="267" width="288" height="75"/>
+                                <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.26000000000000001" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -154,16 +165,19 @@
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Replacement:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggw-pj-eeG">
                                 <rect key="frame" x="16" y="238" width="114" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Twitter" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNi-WX-yDM">
                                 <rect key="frame" x="84" y="89" width="220" height="30"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="sPd-wf-jwP" firstAttribute="trailing" secondItem="1x6-Pp-33p" secondAttribute="trailingMargin" id="2u4-Nw-mi6"/>
@@ -214,9 +228,11 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72e-bq-vcy" customClass="GradientView" customModule="OpenInApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.84007109788359791" green="0.37348234384423545" blue="0.49826834480249621" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="72e-bq-vcy" secondAttribute="width" id="Ekb-ty-ESf"/>
@@ -244,74 +260,23 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="CIZ-OK-Gq0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.6588235294" green="0.1529411765" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="selectedImageTintColor" red="0.6588235294" green="0.1529411765" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="qzv-t2-mXl" kind="relationship" relationship="viewControllers" id="fHe-D1-RWm"/>
-                        <segue destination="1PM-sj-P2B" kind="relationship" relationship="viewControllers" id="ZBM-zh-Gnb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u6Z-eB-xpx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-153" y="182"/>
         </scene>
-        <!--Root View Controller-->
-        <scene sceneID="dy9-fh-VTC">
-            <objects>
-                <tableViewController id="yEy-70-Loh" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hxx-E1-QVP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="bleh" id="grP-o8-uZc">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="grP-o8-uZc" id="X1j-5Z-QXp">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="yEy-70-Loh" id="3o8-AC-jyR"/>
-                            <outlet property="delegate" destination="yEy-70-Loh" id="AaQ-PM-4HJ"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="4pg-Cf-rCr"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kIQ-a8-UeB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1379" y="561"/>
-        </scene>
-        <!--Options-->
-        <scene sceneID="uJY-fu-CXn">
-            <objects>
-                <navigationController id="1PM-sj-P2B" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Options" image="Settings Tab" id="4Z7-ao-uQe">
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Settings Tab (Filled)"/>
-                        </userDefinedRuntimeAttributes>
-                    </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kq3-3X-HJN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="0.6588235294" green="0.1529411765" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="yEy-70-Loh" kind="relationship" relationship="rootViewController" id="Rrz-4W-UkK"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wJR-vi-1Yw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="559" y="561"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Apps Tab" width="25" height="25"/>
         <image name="Apps Tab (Filled)" width="25" height="25"/>
-        <image name="Settings Tab" width="25" height="25"/>
-        <image name="Settings Tab (Filled)" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xGQ-ZX-uwq"/>

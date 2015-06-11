@@ -41,6 +41,7 @@ class SiteData : NSObject {
 }
 
 
+
 class MainViewController: UITableViewController {
     var data = NSMutableArray.new()
     
@@ -92,6 +93,13 @@ class MainViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        var nav = self.navigationController?.navigationBar
+        nav?.tintColor = UIColor.whiteColor()
+        nav?.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
