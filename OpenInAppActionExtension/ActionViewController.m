@@ -24,7 +24,6 @@
 @interface ActionViewController () {
     OIALuaBinding *lua;
     
-    __weak UIApplication *application;
     __weak MBProgressHUD *hud;
 }
 
@@ -39,6 +38,7 @@
     self.urlLabel.hidden = YES;
     
     hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [hud.superview sendSubviewToBack:hud];
     hud.mode = MBProgressHUDModeIndeterminate;
     hud.labelText = @"Loading URL...";
     

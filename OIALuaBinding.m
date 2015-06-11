@@ -80,8 +80,35 @@
     CHECK_SCHEME(@"amazon", amazonScript);
     
     CHECK_SCHEME(@"googlechrome", browserChangerScript);
+    CHECK_SCHEME(@"googlemail", mailto2GmailScript);
     
-    [self doString:[OIAScripts mailto2GmailScript]];
+    NSString *basePath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, true)[0];
+    NSString *filePath = [basePath stringByAppendingString:@"user_created.plist"];
+    NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithContentsOfFile:filePath];
+    if (userInfo && userInfo[@"user"])
+    {
+        NSArray *userData = userInfo[@"user"];
+        for (NSArray *subData in userData)
+        {
+            NSString *expr = subData[1];
+            NSString *repl = subData[2];
+            
+            NSString *script = [NSString stringWithFormat:@"functions[#functions+1] = function(url) \
+                                local match = { url:gmatch(\"%@\")() } \
+                                if match and #match > 0 then \
+                                    local ret = \"%@\" \
+                                    for k, v in pairs(match) do \
+                                        ret = ret:gsub(\"$\" .. tostring(k), v) \
+                                    end \
+                                    return ret \
+                                end \
+                                end \
+                                ", expr, repl];
+            
+            [self doString:script];
+            // TODO: check url scheme
+        }
+    }
 }
     
 -(NSString*) modify:(NSString*)input

@@ -17,8 +17,6 @@
 		0217E5AA1AF1A86D006124A1 /* AppDotNet.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0217E5A11AF1968C006124A1 /* AppDotNet.lua */; };
 		0243A7061AF0574B0080EEA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243A7051AF0574B0080EEA2 /* main.m */; };
 		0243A7091AF0574B0080EEA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243A7081AF0574B0080EEA2 /* AppDelegate.m */; };
-		0243A70C1AF0574B0080EEA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243A70B1AF0574B0080EEA2 /* ViewController.m */; };
-		0243A70F1AF0574B0080EEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0243A70D1AF0574B0080EEA2 /* Main.storyboard */; };
 		0243A7111AF0574B0080EEA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0243A7101AF0574B0080EEA2 /* Images.xcassets */; };
 		0243A7141AF0574B0080EEA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0243A7121AF0574B0080EEA2 /* LaunchScreen.xib */; };
 		0243A7201AF0574B0080EEA2 /* OpenInAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243A71F1AF0574B0080EEA2 /* OpenInAppTests.m */; };
@@ -58,6 +56,8 @@
 		0243A8111AF05B8C0080EEA2 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 0243A7ED1AF05B8C0080EEA2 /* lvm.c */; };
 		0243A8121AF05B8C0080EEA2 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 0243A7EF1AF05B8C0080EEA2 /* lzio.c */; };
 		0243A8161AF05C0F0080EEA2 /* OIAScripts.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243A8151AF05C0F0080EEA2 /* OIAScripts.m */; };
+		02848DE51B2766DE0093E26C /* OIAAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02848DE41B2766DE0093E26C /* OIAAppTableViewCell.m */; };
+		02848DEA1B276E910093E26C /* DownwardSwipeSegueButLonger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02848DE91B276E910093E26C /* DownwardSwipeSegueButLonger.swift */; };
 		02A3B1DA1AF143400014956B /* Browser Changer.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02A3B1BD1AF1430A0014956B /* Browser Changer.lua */; };
 		02A3B1DB1AF143400014956B /* Cydia.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02A3B1BE1AF1430A0014956B /* Cydia.lua */; };
 		02A3B1DC1AF143400014956B /* Ebay.lua in CopyFiles */ = {isa = PBXBuildFile; fileRef = 02A3B1BF1AF1430A0014956B /* Ebay.lua */; };
@@ -123,6 +123,18 @@
 		02A3B2371AF14F690014956B /* OIAURLChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A3B2351AF14E590014956B /* OIAURLChecker.m */; };
 		02A3B23A1AF150E40014956B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A3B2391AF150E40014956B /* MBProgressHUD.m */; };
 		02A3B23B1AF150EE0014956B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A3B2391AF150E40014956B /* MBProgressHUD.m */; };
+		02AE6B5D1B2675B70003D250 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE6B5B1B2675B70003D250 /* IntroViewController.swift */; };
+		02AE6B641B2675CC0003D250 /* CRGradientNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AE6B601B2675CC0003D250 /* CRGradientNavigationBar.m */; };
+		02AE6B651B2675CC0003D250 /* DownwardSwipeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE6B611B2675CC0003D250 /* DownwardSwipeSegue.swift */; };
+		02AE6B661B2675CC0003D250 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE6B621B2675CC0003D250 /* GradientView.swift */; };
+		02AE6B671B2675CC0003D250 /* HolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE6B631B2675CC0003D250 /* HolderViewController.swift */; };
+		02B1E8221B27CDC50064BD43 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1E8211B27CDC50064BD43 /* MainViewController.swift */; };
+		02C81B8B1B27FD8F00C8433A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C81B8A1B27FD8F00C8433A /* AddViewController.swift */; };
+		02F6E52E1B267F2B0023AC22 /* 0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E5261B267F2B0023AC22 /* 0.xib */; };
+		02F6E52F1B267F2B0023AC22 /* 1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E5281B267F2B0023AC22 /* 1.xib */; };
+		02F6E5301B267F2B0023AC22 /* 2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E52A1B267F2B0023AC22 /* 2.xib */; };
+		02F6E5311B267F2B0023AC22 /* 3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E52C1B267F2B0023AC22 /* 3.xib */; };
+		02F6E5341B267F6B0023AC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F6E5321B267F6B0023AC22 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,16 +220,13 @@
 
 /* Begin PBXFileReference section */
 		0206389C1AF3F16A008F2BFD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		020638A01AF3F2E1008F2BFD /* Amazon.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Amazon.lua; path = scripts/Amazon.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
+		020638A01AF3F2E1008F2BFD /* Amazon.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Amazon.lua; path = scripts/Amazon.lua; sourceTree = "<group>"; };
 		0217E5A11AF1968C006124A1 /* AppDotNet.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AppDotNet.lua; path = scripts/AppDotNet.lua; sourceTree = "<group>"; };
 		0243A7001AF0574B0080EEA2 /* OpenInApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0243A7041AF0574B0080EEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0243A7051AF0574B0080EEA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0243A7071AF0574B0080EEA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0243A7081AF0574B0080EEA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0243A70A1AF0574B0080EEA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0243A70B1AF0574B0080EEA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0243A70E1AF0574B0080EEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0243A7101AF0574B0080EEA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0243A7131AF0574B0080EEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0243A7191AF0574B0080EEA2 /* OpenInAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenInAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -288,6 +297,9 @@
 		0243A7F01AF05B8C0080EEA2 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
 		0243A8141AF05C0F0080EEA2 /* OIAScripts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIAScripts.h; sourceTree = "<group>"; };
 		0243A8151AF05C0F0080EEA2 /* OIAScripts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIAScripts.m; sourceTree = "<group>"; };
+		02848DE31B2766DE0093E26C /* OIAAppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIAAppTableViewCell.h; sourceTree = "<group>"; };
+		02848DE41B2766DE0093E26C /* OIAAppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIAAppTableViewCell.m; sourceTree = "<group>"; };
+		02848DE91B276E910093E26C /* DownwardSwipeSegueButLonger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownwardSwipeSegueButLonger.swift; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/DownwardSwipeSegueButLonger.swift"; sourceTree = "<group>"; };
 		02A3B1BD1AF1430A0014956B /* Browser Changer.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Browser Changer.lua"; path = "scripts/Browser Changer.lua"; sourceTree = "<group>"; };
 		02A3B1BE1AF1430A0014956B /* Cydia.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cydia.lua; path = scripts/Cydia.lua; sourceTree = "<group>"; };
 		02A3B1BF1AF1430A0014956B /* Ebay.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ebay.lua; path = scripts/Ebay.lua; sourceTree = "<group>"; };
@@ -306,6 +318,20 @@
 		02A3B2351AF14E590014956B /* OIAURLChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIAURLChecker.m; sourceTree = "<group>"; };
 		02A3B2381AF150E40014956B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		02A3B2391AF150E40014956B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		02AE6B5A1B2675B60003D250 /* OpenInApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenInApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		02AE6B5B1B2675B70003D250 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/IntroViewController.swift"; sourceTree = "<group>"; };
+		02AE6B5F1B2675CC0003D250 /* CRGradientNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRGradientNavigationBar.h; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/CRGradientNavigationBar.h"; sourceTree = "<group>"; };
+		02AE6B601B2675CC0003D250 /* CRGradientNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRGradientNavigationBar.m; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/CRGradientNavigationBar.m"; sourceTree = "<group>"; };
+		02AE6B611B2675CC0003D250 /* DownwardSwipeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownwardSwipeSegue.swift; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/DownwardSwipeSegue.swift"; sourceTree = "<group>"; };
+		02AE6B621B2675CC0003D250 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/GradientView.swift"; sourceTree = "<group>"; };
+		02AE6B631B2675CC0003D250 /* HolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HolderViewController.swift; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/HolderViewController.swift"; sourceTree = "<group>"; };
+		02B1E8211B27CDC50064BD43 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/MainViewController.swift"; sourceTree = "<group>"; };
+		02C81B8A1B27FD8F00C8433A /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		02F6E5271B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/0.xib"; sourceTree = "<group>"; };
+		02F6E5291B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/1.xib"; sourceTree = "<group>"; };
+		02F6E52B1B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/2.xib"; sourceTree = "<group>"; };
+		02F6E52D1B267F2B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/3.xib"; sourceTree = "<group>"; };
+		02F6E5331B267F6B0023AC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Dropbox/Elijah + Andrew/OpenInApp/Of Present/Of Present/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,11 +373,23 @@
 				0243A7B31AF05B800080EEA2 /* OIALuaBinding.m */,
 				02A3B2341AF14E590014956B /* OIAURLChecker.h */,
 				02A3B2351AF14E590014956B /* OIAURLChecker.m */,
+				02AE6B5F1B2675CC0003D250 /* CRGradientNavigationBar.h */,
+				02AE6B601B2675CC0003D250 /* CRGradientNavigationBar.m */,
+				02848DE31B2766DE0093E26C /* OIAAppTableViewCell.h */,
+				02848DE41B2766DE0093E26C /* OIAAppTableViewCell.m */,
+				02AE6B5B1B2675B70003D250 /* IntroViewController.swift */,
+				02AE6B621B2675CC0003D250 /* GradientView.swift */,
+				02AE6B611B2675CC0003D250 /* DownwardSwipeSegue.swift */,
+				02848DE91B276E910093E26C /* DownwardSwipeSegueButLonger.swift */,
+				02AE6B631B2675CC0003D250 /* HolderViewController.swift */,
+				02B1E8211B27CDC50064BD43 /* MainViewController.swift */,
+				02C81B8A1B27FD8F00C8433A /* AddViewController.swift */,
 				0243A7B51AF05B8C0080EEA2 /* lua */,
 				0243A7021AF0574B0080EEA2 /* OpenInApp */,
 				0243A71C1AF0574B0080EEA2 /* OpenInAppTests */,
 				0243A7421AF057B80080EEA2 /* OpenInAppActionExtension */,
 				0243A7011AF0574B0080EEA2 /* Products */,
+				02AE6B5A1B2675B60003D250 /* OpenInApp-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -370,9 +408,11 @@
 			children = (
 				0243A7071AF0574B0080EEA2 /* AppDelegate.h */,
 				0243A7081AF0574B0080EEA2 /* AppDelegate.m */,
-				0243A70A1AF0574B0080EEA2 /* ViewController.h */,
-				0243A70B1AF0574B0080EEA2 /* ViewController.m */,
-				0243A70D1AF0574B0080EEA2 /* Main.storyboard */,
+				02F6E5321B267F6B0023AC22 /* Main.storyboard */,
+				02F6E5261B267F2B0023AC22 /* 0.xib */,
+				02F6E5281B267F2B0023AC22 /* 1.xib */,
+				02F6E52A1B267F2B0023AC22 /* 2.xib */,
+				02F6E52C1B267F2B0023AC22 /* 3.xib */,
 				0243A7101AF0574B0080EEA2 /* Images.xcassets */,
 				0243A7121AF0574B0080EEA2 /* LaunchScreen.xib */,
 				0243A7031AF0574B0080EEA2 /* Supporting Files */,
@@ -491,6 +531,8 @@
 		02A3B1BC1AF142E70014956B /* scripts */ = {
 			isa = PBXGroup;
 			children = (
+				020638A01AF3F2E1008F2BFD /* Amazon.lua */,
+				0217E5A11AF1968C006124A1 /* AppDotNet.lua */,
 				02A3B1BD1AF1430A0014956B /* Browser Changer.lua */,
 				02A3B1BE1AF1430A0014956B /* Cydia.lua */,
 				02A3B1BF1AF1430A0014956B /* Ebay.lua */,
@@ -505,8 +547,6 @@
 				02A3B1C81AF1430A0014956B /* Twitter.lua */,
 				02A3B1C91AF1430A0014956B /* Twitterrific.lua */,
 				02A3B1CA1AF1430A0014956B /* Vine.lua */,
-				0217E5A11AF1968C006124A1 /* AppDotNet.lua */,
-				020638A01AF3F2E1008F2BFD /* Amazon.lua */,
 			);
 			name = scripts;
 			sourceTree = "<group>";
@@ -617,9 +657,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F6E5301B267F2B0023AC22 /* 2.xib in Resources */,
+				02F6E52E1B267F2B0023AC22 /* 0.xib in Resources */,
 				020638A11AF3F2E1008F2BFD /* Amazon.lua in Resources */,
-				0243A70F1AF0574B0080EEA2 /* Main.storyboard in Resources */,
+				02F6E52F1B267F2B0023AC22 /* 1.xib in Resources */,
 				0243A7141AF0574B0080EEA2 /* LaunchScreen.xib in Resources */,
+				02F6E5311B267F2B0023AC22 /* 3.xib in Resources */,
+				02F6E5341B267F6B0023AC22 /* Main.storyboard in Resources */,
 				0217E5A21AF1968C006124A1 /* AppDotNet.lua in Resources */,
 				0243A7111AF0574B0080EEA2 /* Images.xcassets in Resources */,
 			);
@@ -648,21 +692,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				0243A7FC1AF05B8C0080EEA2 /* ldump.c in Sources */,
+				02B1E8221B27CDC50064BD43 /* MainViewController.swift in Sources */,
 				0243A80F1AF05B8C0080EEA2 /* ltm.c in Sources */,
 				0243A8051AF05B8C0080EEA2 /* loadlib.c in Sources */,
 				0243A7F61AF05B8C0080EEA2 /* lcode.c in Sources */,
+				02848DEA1B276E910093E26C /* DownwardSwipeSegueButLonger.swift in Sources */,
 				0243A7FE1AF05B8C0080EEA2 /* lfunc.c in Sources */,
 				0243A7F21AF05B8C0080EEA2 /* lapi.c in Sources */,
 				02A3B23A1AF150E40014956B /* MBProgressHUD.m in Sources */,
 				0243A80A1AF05B8C0080EEA2 /* lstate.c in Sources */,
-				0243A70C1AF0574B0080EEA2 /* ViewController.m in Sources */,
 				0243A8021AF05B8C0080EEA2 /* llex.c in Sources */,
 				0243A8041AF05B8C0080EEA2 /* lmem.c in Sources */,
 				0243A80E1AF05B8C0080EEA2 /* ltablib.c in Sources */,
+				02AE6B651B2675CC0003D250 /* DownwardSwipeSegue.swift in Sources */,
+				02AE6B641B2675CC0003D250 /* CRGradientNavigationBar.m in Sources */,
 				0243A7F71AF05B8C0080EEA2 /* lcorolib.c in Sources */,
 				0243A7FF1AF05B8C0080EEA2 /* lgc.c in Sources */,
 				0243A7B41AF05B800080EEA2 /* OIALuaBinding.m in Sources */,
 				0243A80D1AF05B8C0080EEA2 /* ltable.c in Sources */,
+				02AE6B671B2675CC0003D250 /* HolderViewController.swift in Sources */,
 				0243A80B1AF05B8C0080EEA2 /* lstring.c in Sources */,
 				0243A80C1AF05B8C0080EEA2 /* lstrlib.c in Sources */,
 				0243A8071AF05B8C0080EEA2 /* lopcodes.c in Sources */,
@@ -674,8 +722,11 @@
 				0243A8031AF05B8C0080EEA2 /* lmathlib.c in Sources */,
 				0243A8081AF05B8C0080EEA2 /* loslib.c in Sources */,
 				0243A7F41AF05B8C0080EEA2 /* lbaselib.c in Sources */,
+				02AE6B5D1B2675B70003D250 /* IntroViewController.swift in Sources */,
 				0243A7FB1AF05B8C0080EEA2 /* ldo.c in Sources */,
 				0243A8161AF05C0F0080EEA2 /* OIAScripts.m in Sources */,
+				02C81B8B1B27FD8F00C8433A /* AddViewController.swift in Sources */,
+				02848DE51B2766DE0093E26C /* OIAAppTableViewCell.m in Sources */,
 				0243A8101AF05B8C0080EEA2 /* lundump.c in Sources */,
 				0243A7061AF0574B0080EEA2 /* main.m in Sources */,
 				0243A8091AF05B8C0080EEA2 /* lparser.c in Sources */,
@@ -685,6 +736,7 @@
 				0243A8121AF05B8C0080EEA2 /* lzio.c in Sources */,
 				0243A8061AF05B8C0080EEA2 /* lobject.c in Sources */,
 				0243A7FA1AF05B8C0080EEA2 /* ldebug.c in Sources */,
+				02AE6B661B2675CC0003D250 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,20 +808,52 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0243A70D1AF0574B0080EEA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0243A70E1AF0574B0080EEA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0243A7121AF0574B0080EEA2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0243A7131AF0574B0080EEA2 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		02F6E5261B267F2B0023AC22 /* 0.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F6E5271B267F2B0023AC22 /* Base */,
+			);
+			name = 0.xib;
+			sourceTree = "<group>";
+		};
+		02F6E5281B267F2B0023AC22 /* 1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F6E5291B267F2B0023AC22 /* Base */,
+			);
+			name = 1.xib;
+			sourceTree = "<group>";
+		};
+		02F6E52A1B267F2B0023AC22 /* 2.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F6E52B1B267F2B0023AC22 /* Base */,
+			);
+			name = 2.xib;
+			sourceTree = "<group>";
+		};
+		02F6E52C1B267F2B0023AC22 /* 3.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F6E52D1B267F2B0023AC22 /* Base */,
+			);
+			name = 3.xib;
+			sourceTree = "<group>";
+		};
+		02F6E5321B267F6B0023AC22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F6E5331B267F6B0023AC22 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -857,10 +941,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenInApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenInApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -868,10 +955,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenInApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenInApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
