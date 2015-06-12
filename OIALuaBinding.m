@@ -94,9 +94,9 @@
             NSString *repl = subData[2];
             
             NSString *script = [NSString stringWithFormat:@"functions[#functions+1] = function(url) \
-                                local match = { url:gmatch(\"%@\")() } \
+                                local match = { url:gmatch([==[%@]==])() } \
                                 if match and #match > 0 then \
-                                    local ret = \"%@\" \
+                                    local ret = [==[%@]==] \
                                     for k, v in pairs(match) do \
                                         ret = ret:gsub(\"$\" .. tostring(k), v) \
                                     end \

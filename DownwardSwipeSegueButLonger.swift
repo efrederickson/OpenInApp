@@ -17,7 +17,7 @@ class DownwardSwipeSegueButLonger: UIStoryboardSegue {
         let window = UIApplication.sharedApplication().keyWindow
         window?.insertSubview(newView, belowSubview: originalView)
         
-        UIView.animateWithDuration(0.7, animations: { () -> Void in
+        UIView.animateWithDuration(0 /* was 0.7 */, animations: { () -> Void in
             originalView.frame = CGRectOffset(originalView.frame, 0.0, screenHeight)
         }) { (finished) -> Void in
             self.sourceViewController.presentViewController(self.destinationViewController as! UIViewController, animated: false, completion: nil)

@@ -31,7 +31,8 @@ class IntroViewController: UIViewController, UIPageViewControllerDataSource {
         pageViewController!.didMoveToParentViewController(self)
     }
     
-    override func viewDidAppear(animated: Bool) {
+    // Changed from viewDidAppear. This way it simply hides the view, instead of sliding down
+    override func viewWillAppear(animated: Bool) {
         let didShowIntro: Bool = NSUserDefaults.standardUserDefaults().boolForKey("didShowIntro")
         if !didShowIntro
         {
@@ -41,6 +42,7 @@ class IntroViewController: UIViewController, UIPageViewControllerDataSource {
         }
         else
         {
+            self.view.alpha = 0
             self.performSegueWithIdentifier("transition2", sender: self)
             NSLog("Did show intro")
         }
