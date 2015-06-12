@@ -81,6 +81,7 @@ class MainViewController: UITableViewController {
         var navbar = self.navigationController?.navigationBar as! CRGradientNavigationBar
         navbar.setBarTintGradientColors(colors)
         
+        self.tableView.allowsMultipleSelectionDuringEditing = false
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -122,10 +123,37 @@ class MainViewController: UITableViewController {
         self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
         let alertController = UIAlertController(title: "OpenInApp", message:
-            "Expression: " + (data[indexPath.row][2] as! String), preferredStyle: UIAlertControllerStyle.Alert)
+            "Expression: ", preferredStyle: UIAlertControllerStyle.Alert)
         alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
         
         self.presentViewController(alertController, animated: true, completion: nil)
+    }
+    
+    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return true
+    }
+    
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if (editingStyle == .Delete)
+        {
+            var basePath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String
+            var filePath = basePath + "user_created.plist"
+            
+            var mappings = NSDictionary(contentsOfFile: filePath)
+            if mappings == nil
+            {
+                return;
+            }
+            
+            let userArray: NSArray = mappings?.objectForKey("user") as! NSArray
+            let mutableArray: NSMutableArray = userArray.mutableCopy() as! NSMutableArray
+            
+            mutableArray.removeObjectAtIndex(indexPath.row)
+            
+            let dict: NSDictionary = ["user": mutableArray] as NSDictionary
+            dict.writeToFile(filePath, atomically: true)
+            self.loadData()
+        }
     }
 }
 

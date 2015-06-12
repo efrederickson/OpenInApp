@@ -1,6 +1,7 @@
 TODO:
 
 - Custom icons in the list view
-- ability to delete custom apps
+√ ability to delete custom apps
 - Better error checking of custom apps
-- Remove useless "options" tab
+√ Remove useless "options" tab
+√ Hide intro view instead of sliding down
