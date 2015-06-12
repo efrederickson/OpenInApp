@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AddViewController : UIViewController
+class AddViewController : UIViewController, UITextViewDelegate
 {
     @IBOutlet weak var labelTextField: UITextField!
     @IBOutlet weak var luaExpressionTextView: UITextView!
@@ -16,6 +16,9 @@ class AddViewController : UIViewController
     
     override func viewDidLoad() {
         UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: true)
+        
+        luaExpressionTextView.delegate = self
+        replacementExpressionTextField.delegate = self
     }
     
     @IBAction func saveButtonTap(sender: AnyObject) {
@@ -38,4 +41,34 @@ class AddViewController : UIViewController
         
         self.navigationController?.popViewControllerAnimated(true)
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.textViewDidEndEditing(luaExpressionTextView)
+        self.textViewDidEndEditing(replacementExpressionTextField)
+    }
+    
+    func textViewDidBeginEditing(textView: UITextView) {
+        if textView.text == "twitter.com/[%w_]+/statuse-s-/(%d+)" || textView.text == "twitter://status/$1"
+        {
+            textView.text = ""
+            textView.textColor = UIColor.blackColor()
+        }
+        textView.becomeFirstResponder()
+    }
+    
+    func textViewDidEndEditing(textView: UITextView) {
+        if textView.text == ""
+        {
+            if textView == luaExpressionTextView
+            {
+                textView.text = "twitter.com/[%w_]+/statuse-s-/(%d+)"
+            }
+            else
+            {
+                textView.text = "twitter://status/$1"
+            }
+            textView.textColor = UIColor.grayColor()
+        }
+    }
+    
 }
